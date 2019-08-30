@@ -5,16 +5,16 @@
  -->
 <!-- Title: perl6&#45;type&#45;graph Pages: 1 -->
 <svg width="722pt" height="188pt"
- viewBox="0.00 0.00 722.18 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 722.43 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
 <title>perl6&#45;type&#45;graph</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-184 718.1799,-184 718.1799,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-184 718.4308,-184 718.4308,4 -4,4"/>
 <!-- Documentable -->
 <g id="node1" class="node">
 <title>Documentable</title>
 <g id="a_node1"><a xlink:href="/type/Documentable" xlink:title="Documentable">
-<ellipse fill="none" stroke="#000000" cx="376.8391" cy="-90" rx="69.5877" ry="18"/>
-<text text-anchor="middle" x="376.8391" y="-86.3" font-family="FreeSans" font-size="14.00" fill="#000000">Documentable</text>
+<ellipse fill="none" stroke="#000000" cx="347.3408" cy="-90" rx="69.5877" ry="18"/>
+<text text-anchor="middle" x="347.3408" y="-86.3" font-family="FreeSans" font-size="14.00" fill="#000000">Documentable</text>
 </a>
 </g>
 </g>
@@ -22,61 +22,61 @@
 <g id="node2" class="node">
 <title>Any</title>
 <g id="a_node2"><a xlink:href="/type/Any" xlink:title="Any">
-<ellipse fill="none" stroke="#000000" cx="376.8391" cy="-162" rx="27" ry="18"/>
-<text text-anchor="middle" x="376.8391" y="-158.3" font-family="FreeSans" font-size="14.00" fill="#000000">Any</text>
+<ellipse fill="none" stroke="#000000" cx="347.3408" cy="-162" rx="27" ry="18"/>
+<text text-anchor="middle" x="347.3408" y="-158.3" font-family="FreeSans" font-size="14.00" fill="#000000">Any</text>
 </a>
 </g>
 </g>
 <!-- Documentable&#45;&gt;Any -->
 <g id="edge1" class="edge">
 <title>Documentable&#45;&gt;Any</title>
-<path fill="none" stroke="#000000" d="M376.8391,-108.1686C376.8391,-115.869 376.8391,-125.0257 376.8391,-133.5834"/>
-<polygon fill="#000000" stroke="#000000" points="373.3392,-133.5867 376.8391,-143.5867 380.3392,-133.5868 373.3392,-133.5867"/>
-</g>
-<!-- Documentable::Secondary -->
-<g id="node3" class="node">
-<title>Documentable::Secondary</title>
-<g id="a_node3"><a xlink:href="/type/Documentable::Secondary" xlink:title="Documentable::Secondary">
-<ellipse fill="none" stroke="#000000" cx="122.8391" cy="-18" rx="122.6784" ry="18"/>
-<text text-anchor="middle" x="122.8391" y="-14.3" font-family="FreeSans" font-size="14.00" fill="#000000">Documentable::Secondary</text>
-</a>
-</g>
-</g>
-<!-- Documentable::Secondary&#45;&gt;Documentable -->
-<g id="edge2" class="edge">
-<title>Documentable::Secondary&#45;&gt;Documentable</title>
-<path fill="none" stroke="#000000" d="M179.5255,-34.0686C221.3513,-45.9247 278.0348,-61.9925 319.9164,-73.8644"/>
-<polygon fill="#000000" stroke="#000000" points="319.113,-77.2745 329.6885,-76.6345 321.0221,-70.5399 319.113,-77.2745"/>
-</g>
-<!-- Documentable::Primary -->
-<g id="node4" class="node">
-<title>Documentable::Primary</title>
-<g id="a_node4"><a xlink:href="/type/Documentable::Primary" xlink:title="Documentable::Primary">
-<ellipse fill="none" stroke="#000000" cx="376.8391" cy="-18" rx="113.18" ry="18"/>
-<text text-anchor="middle" x="376.8391" y="-14.3" font-family="FreeSans" font-size="14.00" fill="#000000">Documentable::Primary</text>
-</a>
-</g>
-</g>
-<!-- Documentable::Primary&#45;&gt;Documentable -->
-<g id="edge3" class="edge">
-<title>Documentable::Primary&#45;&gt;Documentable</title>
-<path fill="none" stroke="#000000" d="M376.8391,-36.1686C376.8391,-43.869 376.8391,-53.0257 376.8391,-61.5834"/>
-<polygon fill="#000000" stroke="#000000" points="373.3392,-61.5867 376.8391,-71.5867 380.3392,-61.5868 373.3392,-61.5867"/>
+<path fill="none" stroke="#000000" d="M347.3408,-108.1686C347.3408,-115.869 347.3408,-125.0257 347.3408,-133.5834"/>
+<polygon fill="#000000" stroke="#000000" points="343.8409,-133.5867 347.3408,-143.5867 350.8409,-133.5868 343.8409,-133.5867"/>
 </g>
 <!-- Documentable::Index -->
-<g id="node5" class="node">
+<g id="node3" class="node">
 <title>Documentable::Index</title>
-<g id="a_node5"><a xlink:href="/type/Documentable::Index" xlink:title="Documentable::Index">
-<ellipse fill="none" stroke="#000000" cx="610.8391" cy="-18" rx="103.1819" ry="18"/>
-<text text-anchor="middle" x="610.8391" y="-14.3" font-family="FreeSans" font-size="14.00" fill="#000000">Documentable::Index</text>
+<g id="a_node3"><a xlink:href="/type/Documentable::Index" xlink:title="Documentable::Index">
+<ellipse fill="none" stroke="#000000" cx="103.3408" cy="-18" rx="103.1819" ry="18"/>
+<text text-anchor="middle" x="103.3408" y="-14.3" font-family="FreeSans" font-size="14.00" fill="#000000">Documentable::Index</text>
 </a>
 </g>
 </g>
 <!-- Documentable::Index&#45;&gt;Documentable -->
-<g id="edge4" class="edge">
+<g id="edge2" class="edge">
 <title>Documentable::Index&#45;&gt;Documentable</title>
-<path fill="none" stroke="#000000" d="M559.776,-33.7117C522.0017,-45.3346 470.6126,-61.1466 431.9175,-73.0528"/>
-<polygon fill="#000000" stroke="#000000" points="430.3953,-69.8592 421.8668,-76.1453 432.4539,-76.5496 430.3953,-69.8592"/>
+<path fill="none" stroke="#000000" d="M155.9848,-33.5343C195.9771,-45.3353 250.8586,-61.5298 291.5947,-73.5503"/>
+<polygon fill="#000000" stroke="#000000" points="290.7845,-76.9604 301.3662,-76.4337 292.7657,-70.2466 290.7845,-76.9604"/>
+</g>
+<!-- Documentable::Secondary -->
+<g id="node4" class="node">
+<title>Documentable::Secondary</title>
+<g id="a_node4"><a xlink:href="/type/Documentable::Secondary" xlink:title="Documentable::Secondary">
+<ellipse fill="none" stroke="#000000" cx="347.3408" cy="-18" rx="122.6784" ry="18"/>
+<text text-anchor="middle" x="347.3408" y="-14.3" font-family="FreeSans" font-size="14.00" fill="#000000">Documentable::Secondary</text>
+</a>
+</g>
+</g>
+<!-- Documentable::Secondary&#45;&gt;Documentable -->
+<g id="edge3" class="edge">
+<title>Documentable::Secondary&#45;&gt;Documentable</title>
+<path fill="none" stroke="#000000" d="M347.3408,-36.1686C347.3408,-43.869 347.3408,-53.0257 347.3408,-61.5834"/>
+<polygon fill="#000000" stroke="#000000" points="343.8409,-61.5867 347.3408,-71.5867 350.8409,-61.5868 343.8409,-61.5867"/>
+</g>
+<!-- Documentable::Primary -->
+<g id="node5" class="node">
+<title>Documentable::Primary</title>
+<g id="a_node5"><a xlink:href="/type/Documentable::Primary" xlink:title="Documentable::Primary">
+<ellipse fill="none" stroke="#000000" cx="601.3408" cy="-18" rx="113.18" ry="18"/>
+<text text-anchor="middle" x="601.3408" y="-14.3" font-family="FreeSans" font-size="14.00" fill="#000000">Documentable::Primary</text>
+</a>
+</g>
+</g>
+<!-- Documentable::Primary&#45;&gt;Documentable -->
+<g id="edge4" class="edge">
+<title>Documentable::Primary&#45;&gt;Documentable</title>
+<path fill="none" stroke="#000000" d="M545.9133,-33.7117C504.021,-45.5867 446.702,-61.8346 404.413,-73.8221"/>
+<polygon fill="#000000" stroke="#000000" points="403.2141,-70.5239 394.5477,-76.6185 405.1232,-77.2586 403.2141,-70.5239"/>
 </g>
 </g>
 </svg>
