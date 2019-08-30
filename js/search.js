@@ -121,6 +121,8 @@ $(function(){
 ,
 { category: "class", value: "Documentable::DocPage::Factory", url: "/Documentable/type/Documentable::DocPage::Factory" }
 ,
+{ category: "class", value: "Documentable::Search", url: "/Documentable/type/Documentable::Search" }
+,
 { category: "class", value: "Documentable::Primary", url: "/Documentable/type/Documentable::Primary" }
 ,
 { category: "class", value: "X::Documentable::TitleNotFound", url: "/Documentable/type/X::Documentable::TitleNotFound" }
@@ -131,15 +133,15 @@ $(function(){
 ,
 { category: "class", value: "X::Documentable::TypeNotFound", url: "/Documentable/type/X::Documentable::TypeNotFound" }
 ,
+{ category: "class", value: "Documentable::Index", url: "/Documentable/type/Documentable::Index" }
+,
+{ category: "class", value: "Documentable::Secondary", url: "/Documentable/type/Documentable::Secondary" }
+,
 { category: "class", value: "Documentable::Config", url: "/Documentable/type/Documentable::Config" }
 ,
 { category: "class", value: "X::Documentable::Config::InvalidConfig", url: "/Documentable/type/X::Documentable::Config::InvalidConfig" }
 ,
-{ category: "class", value: "Documentable::Secondary", url: "/Documentable/type/Documentable::Secondary" }
-,
 { category: "class", value: "Documentable::Registry", url: "/Documentable/type/Documentable::Registry" }
-,
-{ category: "class", value: "Documentable::Search", url: "/Documentable/type/Documentable::Search" }
 ,
 { category: "role", value: "Documentable::DocPage", url: "/Documentable/type/Documentable::DocPage" }
 ,
@@ -163,17 +165,15 @@ $(function(){
 ,
 { category: "class", value: "Documentable::DocPage::Index::Programs", url: "/Documentable/type/Documentable::DocPage::Index::Programs" }
 ,
-{ category: "class", value: "Documentable::Index", url: "/Documentable/type/Documentable::Index" }
-,
 { category: "grammar", value: "Documentable::Heading::Grammar", url: "/Documentable/type/Documentable::Heading::Grammar" }
 ,
 { category: "class", value: "Documentable::To::HTML::Wrapper", url: "/Documentable/type/Documentable::To::HTML::Wrapper" }
 ,
 { category: "Language", value: "TypeGraph representations", url: "/Documentable/language/typegraph" }
 ,
-{ category: "Language", value: "Perl6 Highlighter", url: "/Documentable/language/highlighting" }
-,
 { category: "Language", value: "Pod6 Format", url: "/Documentable/language/document-format" }
+,
+{ category: "Language", value: "Perl6 Highlighter", url: "/Documentable/language/highlighting" }
 ,
 { category: "Language", value: "Command line interface", url: "/Documentable/language/cli" }
 ,
