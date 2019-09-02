@@ -119,7 +119,11 @@ $(function(){
 ,
 { category: "enum", value: "Kind", url: "/type/Kind" }
 ,
-{ category: "class", value: "Documentable::Secondary", url: "/type/Documentable::Secondary" }
+{ category: "class", value: "Documentable::Registry", url: "/type/Documentable::Registry" }
+,
+{ category: "class", value: "Documentable::Config", url: "/type/Documentable::Config" }
+,
+{ category: "class", value: "X::Documentable::Config::InvalidConfig", url: "/type/X::Documentable::Config::InvalidConfig" }
 ,
 { category: "role", value: "Documentable::DocPage", url: "/type/Documentable::DocPage" }
 ,
@@ -143,12 +147,6 @@ $(function(){
 ,
 { category: "class", value: "Documentable::DocPage::Index::Programs", url: "/type/Documentable::DocPage::Index::Programs" }
 ,
-{ category: "class", value: "Documentable::Search", url: "/type/Documentable::Search" }
-,
-{ category: "class", value: "Documentable::Config", url: "/type/Documentable::Config" }
-,
-{ category: "class", value: "X::Documentable::Config::InvalidConfig", url: "/type/X::Documentable::Config::InvalidConfig" }
-,
 { category: "class", value: "Documentable::Index", url: "/type/Documentable::Index" }
 ,
 { category: "class", value: "Documentable::Primary", url: "/type/Documentable::Primary" }
@@ -161,7 +159,9 @@ $(function(){
 ,
 { category: "class", value: "X::Documentable::TypeNotFound", url: "/type/X::Documentable::TypeNotFound" }
 ,
-{ category: "class", value: "Documentable::Registry", url: "/type/Documentable::Registry" }
+{ category: "class", value: "Documentable::Search", url: "/type/Documentable::Search" }
+,
+{ category: "class", value: "Documentable::Secondary", url: "/type/Documentable::Secondary" }
 ,
 { category: "class", value: "Documentable::DocPage::Factory", url: "/type/Documentable::DocPage::Factory" }
 ,
@@ -169,11 +169,11 @@ $(function(){
 ,
 { category: "class", value: "Documentable::To::HTML::Wrapper", url: "/type/Documentable::To::HTML::Wrapper" }
 ,
-{ category: "Language", value: "Perl6 Highlighter", url: "/language/highlighting" }
-,
 { category: "Language", value: "TypeGraph representations", url: "/language/typegraph" }
 ,
 { category: "Language", value: "Pod6 Format", url: "/language/document-format" }
+,
+{ category: "Language", value: "Perl6 Highlighter", url: "/language/highlighting" }
 ,
 { category: "Language", value: "Configuration file", url: "/language/configuration-file" }
 ,
