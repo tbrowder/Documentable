@@ -38,11 +38,26 @@ package Documentable::CLI {
     ) {
         DEBUG("Setting up the directory...");
 
+        =begin comment
         my $tmpdir = tempdir;
         shell "wget https://github.com/perl6/Documentable/releases/download/v1.0.1/assets.tar.gz -P {$tmpdir} -q";
         shell "tar -xvzf {$tmpdir}/assets.tar.gz -C {$tmpdir} > /dev/null && rm {$tmpdir}/assets.tar.gz";
 
         # warnings
+        my @assets-files = list-files($tmpdir);
+        =end comment
+
+=begin comment
+#| Standard OS directories for default config.json files.
+our @default-config-dirs is export =
+    '/usr/share/raku/documentable',   #| for the root user for system-wide use
+    "%*ENV<HOME>/.raku/documentable", #| for a normal user
+    ;
+
+#| Directory name for the local doc repo's user config file.
+our $config-user-dir is export = 'config-user';
+=end comment
+
         my @assets-files = list-files($tmpdir);
         my $overriden = False;
         for @assets-files -> $file {
