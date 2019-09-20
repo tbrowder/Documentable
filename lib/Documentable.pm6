@@ -1,5 +1,14 @@
 unit module Documentable;
 
+#| Standard OS directories for default config.json files.
+our @default-config-dirs is export =
+    '/usr/share/raku/documentable',   #| for the root user for system-wide use
+    "%*ENV<HOME>/.raku/documentable", #| for a normal user
+    ;
+
+#| Directory name for the local doc repo's user config file.
+our $config-user-dir is export = 'config-user';
+
 #| Enum to classify all "kinds" of Documentable
 enum Kind is export (Type      => "type"     , Language => "language",
                      Programs  => "programs" , Syntax   => "syntax"  ,
